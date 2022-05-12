@@ -1,38 +1,19 @@
 ---
-route: '/'
+title: What is Markdoc?
 ---
-# Home
 
-{% callout type="warning" %}
-This is a warning callout!
+# {% $markdoc.frontmatter.title %} {% #overview %}
+
+Markdoc is a Markdown-based syntax and toolchain for creating custom documentation sites. Stripe created Markdoc to power [our public docs](http://stripe.com/docs).
+
+{% callout type="check" %}
+Markdoc is open-source—check out its [source](http://github.com/markdoc/markdoc) to see how it works.
 {% /callout %}
 
-{% callout type="caution" %}
-This is a caution callout!
-{% /callout %}
+## How is Markdoc different?
 
-```js
-const x = 'test';
+Markdoc uses a fully declarative approach to composition and flow control, where other solutions… [Read more](/docs/overview).
 
-# Headers
-
-**Bold**
-
-_Italic_
-
-[Links](/docs/nodes)
-
-![Images](/logo.svg)
-
-Lists
-- Item 1
-- Item 1
-- Item 1
-
-> Quotes
-
-`Inline code`
-
-```
-Code fences
-```
+## Next steps
+- [Install Markdoc](/docs/getting-started)
+- [Explore the syntax](/docs/syntax)
